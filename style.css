@@ -1,0 +1,29 @@
+body {
+    margin:0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+a,a:link{
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
