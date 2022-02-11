@@ -25,8 +25,10 @@ a,a:link{
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    gap: 400px;
 }
 
 .main-info {
@@ -148,4 +150,22 @@ button {
     font-weight: 900;
     text-align: right;
     padding-right: 100px;
+}
+
+.action {
+    background-color: #F9FAF8;
+    height: 400px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
 }
